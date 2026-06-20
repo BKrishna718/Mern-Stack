@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table{
+            border-collapse:collapse;
+            width:80%;
+        }
+        th,td{
+            border:2px solid black;
+            padding: 10px;
+        }
+        th{
+            text-align: center ;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td>28</td>
+                <td>Britian</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+<table>
+    <tr>
+        <td rowspan="2">Row 1,2,3</td>
+        <td colspan="2">Column1&2</td>
+    </tr>
+    <tr>
+        <td>Item A</td>
+        <td>Item B</td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <thead>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+    </thead>
+    <tr>
+        <td rowspan="4">Span rows</td>
+        <td colspan="3">Span Columns</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Span Columns</td>
+        <td rowspan="3">Span both</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Span rows</td>
+        <td>Span columns</td>
+    </tr>
+
+    <tr>
+        <td>Span both</td>
+    </tr>
+</table>
+
+<br>
+
+<!-- !Merge table -->
+
+<table>
+    <tr>
+        <th rowspan="2">Heading</th>
+        <th>Students</th>
+        <th colspan="3">Details</th>
+    </tr>
+
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Roll Number</th>
+    </tr>
+
+    <tr>
+        <td rowspan="4">Student List</td>
+        <td>1</td>
+        <td>Victor</td>
+        <td>Computer Science</td>
+        <td>12345</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Williams</td>
+        <td>Electronics</td>
+        <td>23456</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Harry</td>
+        <td>Electrical</td>
+        <td>34567</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Rick</td>
+        <td>Civil</td>
+        <td>45678</td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <tr>
+        <th rowspan="2">Gender</th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red Eyes</th>
+    </tr>
+    <tr>
+        <th>Height</th>
+        <th>Weight</th>
+    </tr>
+    <tr>
+        <td><b>Male</b></td>
+        <td>1.09</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+
+    <tr>
+        <td><b>Female</b></td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
