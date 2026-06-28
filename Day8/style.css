@@ -73,3 +73,53 @@ p{
 .even{
     color:chartreuse;
 }
+
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background:lightblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background:rgb(109, 224, 15);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+
+}
+
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 2px solid ;
+    width: 150px;
+    height: 120px;
+    font-size: 50px;
+    text-align: center;
+    background: yellowgreen;
+
+    float:right;
+    margin-bottom: 20px;
+
+}
+
+p{
+    clear:both;
+}
