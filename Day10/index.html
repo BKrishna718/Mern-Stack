@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        /* css selector */
+        /* 1. Universal selector = implemented through *
+        2. Id selector
+        3. class selector 
+        4. Attribute  selector 
+        5. Grouping selector 
+        6. Pseudo selector 
+        7. Element Selector */
+
+        /* Universal selector */
+        *{
+            color: green;
+            /* font-size: larger; */
+            font-family: "Cedarville Cursive", cursive; ;
+            
+        }
+        
+        /* Element Selector */
+
+        /* acceccing class= .
+        acceccing id= # */
+
+        h1{
+            font-family: "Poppins", sans-serif;
+        }
+
+        p{
+            font-family: "Cedarville Cursive", cursive;    
+        }
+
+        ul li{
+            color:black;
+        }
+
+        /* class  selector= can be used multiple times */
+        .course{
+            border-bottom: 2px solid blue;
+        }
+
+        /* id  selector= unique */
+        #heading{
+            font-weight: 100px;
+        }
+
+
+        /* attribute selector can be access using big bracket[] */
+
+        img[alt="Image2"]{
+            width: 200px;
+        }
+
+        /* grouping selector */
+        h1, p, ul{
+            background: lightblue;
+
+            box-shadow: x-offest y-offset blur spread;
+            box-shadow: 2px 2px 2px 2px gray;
+
+        }
+
+        /* pseudo selector */
+        h1:hover{
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        p:hover{
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        ul li:hover{
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        img:hover{
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .box{
+            margin-left: 450px;
+            height: 200px;
+            width: 200px;
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .box:hover{
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="heading"> Which Platform Should Nepali Creators Start On in 2026?</h1>
+
+    <p>Should Nepali creators start on Facebook, YouTube, Instagram or TikTok in 2026? Get a Nepal-specific platform guide plus a one-content-to-all-platforms system.</p>
+
+    <ul>
+        <li class="course"> Pyton </li>
+        <li class="course"> Django </li>
+        <li class="course"> React </li>
+        <li class="course"> Node </li>
+    </ul>
+
+    <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/dark-portrait-of-woman-with-hair-over-her-face-free-image.jpeg?h=800&quality=80" width="200" alt="Image1"> <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TqKfrkSHqMVbGS1aWrXIcXIWgf3FwmsQRDInpigNfA&s=10" alt="Image2">
+    
+    <div class="box"></div>
+
+</body>
+</html>
