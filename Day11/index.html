@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+    height:100vh;
+    background:#fff;
+    }
+
+    .container{
+    display:flex;
+    height:100vh;
+    }
+
+    /* * LEFT */ 
+    .left{
+    width:50%;
+    padding:30px 40px;
+    border-right:1px solid #ddd;
+    }
+    .content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80%;
+    }
+
+    .content h1{
+    font-size:72px;
+    line-height:1;
+    color:#111;
+    font-weight:700;
+    }
+
+    /* RIGHT */
+    .right{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+
+    .login-form{
+    width:80%;
+    max-width:550px;
+    }
+
+    .login-form h2{
+    margin-bottom:25px;
+    font-size:32px;
+    }
+
+    .login-form input{
+    width:100%;
+    padding:18px;
+    margin-bottom:20px;
+    border:1px solid #d6d6d6;
+    border-radius:18px;
+    font-size:18px;
+    }
+
+    .login-btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:30px;
+    background:#1877f2;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    }
+
+    .forgot{
+    display:block;
+    text-align:center;
+    margin:25px 0 60px;
+    text-decoration:none;
+    color:#000;
+    font-size:18px;
+    }
+
+    .create-btn{
+    width:100%;
+    padding:16px;
+    border:2px solid #1877f2;
+    border-radius:30px;
+    background:white;
+    color:#1877f2;
+    font-size:20px;
+    cursor:pointer;
+    }
+
+    .meta{
+    text-align:center;
+    margin-top:20px;
+    font-size:24px;
+    color:#333;
+    }
+    
+    .meta img{
+    vertical-align:middle;
+    }
+
+    </style>
+
+    </head>
+    <body>
+
+    <div class="container">
+
+        <!-- Left Section -->
+        <div class="left">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjmUvHck4ejf1Lg99_HEImTZnwtlCG9rLKolFWzHzJJg&s=10" width="100" alt="facebook logo">
+
+            <div class="content">
+                <h1>
+                    Explore <br>
+                    the things <br>
+                    you love.
+                </h1>
+
+            </div>
+
+        </div>
+
+        <!-- Right Section -->
+        <div class="right">
+
+            <form class="login-form">
+
+                <h2>Log into Facebook</h2>
+
+                <input type="text"
+                       placeholder="Email or mobile number">
+
+                <input type="password"
+                       placeholder="Password">
+
+                <button class="login-btn">
+                    Log in
+                </button>
+
+                <a href="#" class="forgot">
+                    Forgot password?
+                </a>
+
+                <button class="create-btn">
+                    Create new account
+                </button>
+
+                <p class="meta">Meta
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0lP2_kgCkHUWXDSmcPvGTYhE2XLv3amPV-aPYMxhrQ&s=10" width="30" alt="meta logo">
+                </p>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
