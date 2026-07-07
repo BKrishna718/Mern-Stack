@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .parent{
+        border: 2px solid red; 
+        /* position: relative; */
+        
+    }
+
+    .child{
+        height:150px;
+        width: 150px;
+        border: 2px solid;
+        text-align: center;
+        align-content: center;
+        font-size: 2rem;
+    }
+
+    #static{
+        margin-top: 150px;
+        position: static;
+
+    }
+
+    #relative{
+        background: greenyellow;
+        top: 75px;
+        position: relative;
+    }
+
+    #absolute{
+        position: absolute;
+        background: lightblue;
+        bottom: 0;
+    }
+
+    #fixed{
+        position: fixed;
+        background: lightsalmon;
+        bottom: 0;
+        
+    }
+
+    #sticky{
+        position: sticky;
+        top: 0;
+        background: rgb(187, 15, 135);
+    }
+
+
+    </style>
+</head>
+<body>
+    <!-- CSS POSITION -->
+     <!-- Static
+          relative
+          absolute 
+          fixed
+          sticky -->
+
+    <div class="parent">
+        <div class="child" id="static">Static</div>
+        <div class="child" id="relative">Relative</div>
+        <div class="child" id="absolute">Absolute</div>
+        <div class="child" id="fixed">Fixed</div>
+    </div>
+    <div class="child" id="sticky">Sticky</div>
+
+</body>
+</html>
