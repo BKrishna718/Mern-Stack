@@ -103,13 +103,6 @@ nav .right img{
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
 /*--------------Main-----------*/
 .main{
     display: flex;
@@ -276,7 +269,7 @@ nav .right img{
 }
 
 .main .center .top_box .story_card{
-    width: 120px;
+    width: 125px;
     height: 250px;
     overflow: hidden;
     margin: 0 auto;
@@ -464,6 +457,7 @@ nav .right img{
     padding: 10px 0;
     cursor: pointer;
     border-radius: 8px;
+    position: relative;
 }
 
 .menu-item:hover{
@@ -546,7 +540,6 @@ nav .right img{
 .profile-menu.active{
     display: block;
 }
-
 .main .center .friends_post{
     margin: 10px 0;
     width: 100%;
@@ -738,34 +731,5 @@ nav .right img{
     color: #919191;
 }
 
-.main .center .loard{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0 50px 0;
-}
 
-.main .center .loard button{
-    background: none;
-    padding: 5px 20px;
-    border: 1px solid #919191;
-    color: #919191;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-.main .center .end{
-    font-size: 15px;
-    text-align: center;
-    color: #919191;
-    margin: 10px 0;
-}
-
-.main .center .end span{
-    margin-left: 8px;
-    color: #45abff;
-}
-
-.main .center .end span i{
-    margin-right: 8px;
-}
