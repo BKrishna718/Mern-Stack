@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin-bottom: 10px;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" onclick="eventActivated()">onclick(left click)</div>
+    <div class="box" oncontextmenu="eventActivated()">oncontextmenu(right click)</div>
+    <div class="box" ondblclick="eventActivated()">ondblclick(double click)</div>
+    <div class="box" onmousedown="eventActivated()">onmousedown(mouse down)</div>
+    <div class="box" onmouseup="eventActivated()">onmouseup(mouse up)</div>
+    <div class="box" onmouseleave="eventActivated()">onmouseleave(mouse leave)</div>
+    <div class="box" onmouseenter="eventActivated()">onmouseenter(mouse enter)</div>
+    <div class="box" onmouseover="eventActivated()">onmouseover(mouse over)</div>
+    <div class="box" onmousemove="eventActivated()">onmousemove(mouse move)</div>
+
+    <script>
+        function eventActivated(){
+            alert("Event Activated");
+        }
+    </script>
+</body>
+</html>
