@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- axios cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <!-- CRUD= POST GET PUT/PATCH DELETE -->
+
+    <script>
+
+        // get
+        async function getproduct()  {
+           
+           try{
+            const response = await axios.get("https://dummyjson.com/products")
+            console.log("all data",response)
+           }catch(error){
+            console.log(error)
+           }
+        }
+        getproduct()
+
+
+
+        // post
+        async function postproduct()  {
+           
+           try{
+            const response = await axios.post("https://dummyjson.com/products/add",{
+                title: "iPhone 13",
+                description: "Latest iPhone model",
+                price: 999,
+                brand: "Apple",
+                category: "smartphones"
+            })
+            console.log("all data",response)
+           }catch(error){
+            console.log(error)
+           }
+        }
+        postproduct()
+
+
+        // single product get
+        async function singleproduct()  {
+           
+           try{
+            const response = await axios.get("https://dummyjson.com/products/1")
+            console.log("all data",response)
+           }catch(error){
+            console.log(error)
+           }
+        }
+        singleproduct() 
+        
+        // single product delete
+        async function singleproduct(){
+            try{
+                const response = await axios.delete("https://dummyjson.com/products/1")
+                console.log("single product",response)
+            }catch(error){
+                console.log(error)
+            }
+        }
+        singleproduct()
+        
+
+
+        // single product update
+        async function singleproduct(){
+            try{
+                const response = await axios.put("https://dummyjson.com/products/1",{
+                    title: "iPhone 13 Pro",
+                    description: "Latest iPhone model with Pro features",
+                    price: 1099,
+                    brand: "Apple",
+                    category: "smartphones"
+                })
+                console.log("single product",response)
+            }catch(error){
+                console.log(error)
+            }
+        }
+        singleproduct()
+
+
+
+        // login user
+        async function login()  {
+           
+           try{
+            const response = await axios.post("https://dummyjson.com/auth/login",{
+                username: "emilys",
+                password: "emilyspass"
+            })
+            console.log("login data",response)
+           }catch(error){
+            console.log(error)
+           }
+        }
+        login()
+
+
+
+    </script>
+</body>
+</html>
