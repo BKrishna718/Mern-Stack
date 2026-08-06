@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            border: 2px solid;
+            padding: 10px;
+            border-radius: 5px;
+            width: 200px;
+            background-color: lightgreen;
+        }
+        input{
+            height: 30px;
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Artificial Intelligence is Taking over CyberSecurity</h1>
+    <p>Artificial Intelligence (AI) drives innovations that enhance threat discovery, vulnerability analysis, code reviewing, and time-consuming tasks automation, enabling companies to adapt to emerging digi</p>
+
+    <h2>Cloud Security Skills Are No Longer Optional</h2>
+    <ul class="topics">
+        <li>Cloud security basics</li>
+        <li>AWS fundamentals</li>
+        <li>Amazon S3 security</li>
+        <li>IAM configuration</li>
+    </ul>
+    <ul class="topic">
+        <li>Cloud security basics</li>
+        <li>AWS fundamentals</li>
+        <li>Amazon S3 security</li>
+        <li>IAM configuration</li>
+    </ul>
+
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/">3rd google</a>
+    
+    <form id="form" action="">
+        <label for="">Change Color</label> <br>
+        <input type="text" onkeyup="alert(this.value)" placeholder="Enter your color"> <br>
+        <label for="">Username</label> <br>
+        <input type="text" placeholder="Enter your username"> <br>
+        <label for="">Password</label><br>
+        <input type="text" placeholder="Enter your password"> <br>
+
+        <button>Save</button>
+    </form>
+    <form action="">
+        <label for="">Username</label>
+        <input type="text"> <br>
+        <label for="">Password</label>
+        <input type="text"> <br>
+
+        <button>Save</button>
+    </form>
+
+
+    <img src="https://www.mindrisers.com.np/static/Images/blog/single_post/viber_image_2026-07-31_14-34-55-881.jpg" alt="">
+
+    <img src="https://www.mindrisers.com.np/static/Images/blog/single_post/Cyber.jpg" alt="">
+
+    <script>
+
+        let doc;
+
+        doc = document;
+        doc = document.head
+        doc = document.title
+        doc = document.body
+        doc = document.all[25];
+        doc = document.links
+        doc = document.links[2]
+        doc = document.images
+        doc = document.images[1]
+        doc = document.doctype
+        doc = document.domain
+        doc = document.URL
+        doc = document.baseURI
+        doc = document.forms
+        doc = document.forms[1]
+        doc = document.getElementById("heading")
+        doc = document.getElementsByClassName("topics")
+        doc = document.getElementsByTagName("ul")
+        doc = document.querySelectorAll("ul")[1]
+        doc = document.all;
+        doc = document.querySelector("#heading")
+        
+        doc.innerHTML = "<h2>changes from dom</h2>"
+        doc.style.color = "green";
+
+
+
+        console.log(doc)
+        
+
+
+    </script>
+
+    
+</body>
+</html>
